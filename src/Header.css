@@ -1,0 +1,122 @@
+.header {
+  height: 55px;
+  display: flex;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  align-items: center;
+  background-color: #131921;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 5px;
+}
+
+.container-fluid {
+  /* width: 100%; */
+  background-color: #131921;
+  color: white;
+  height: 55px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  /* font-weight: 500; */
+}
+.header_logo {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 7px;
+  margin-right: 0;
+  cursor: pointer;
+}
+.LocationOnIcon {
+  margin-left: 5px;
+}
+.address {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.dropdown {
+  margin-left: 0;
+  top: 0;
+  height: 35px;
+  background-color: rgba(43, 39, 39, 0.268);
+  color: white;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-style: italic;
+  font-style: bold;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.form-control {
+  /* width: 400px; */
+  width: 500px;
+  height: 35px;
+  display: flex;
+  margin-right: 0;
+  border: 0;
+  border-radius: 3px;
+}
+.d-flex{
+    width: auto;
+    margin: 0;
+}
+.searchIcon {
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 35px !important;
+  border-radius: 3px;
+  margin-left: 0;
+  margin: 0;
+  background-color: #cd9042;
+  color: black;
+  cursor: pointer;
+}
+/* .me-2{
+    margin-right: 0;
+  } */
+.language {
+  display: flex;
+  /* margin-left: 5px; */
+  top: 0;
+  /* top: 5px; */
+  height: 35px;
+  color: whitesmoke;
+  background-color: rgba(43, 39, 39, 0.268);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-style: bold;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.menu_items {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  /* margin: 5px; */
+  /* margin-right: 5px; */
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(43, 39, 39, 0.268);
+  margin: 5px;
+}
+.option_basket {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+.basket_cart {
+  margin-top: 15px;
+}
+.basket_count {
+  margin-top: -10px;
+}

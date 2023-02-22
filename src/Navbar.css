@@ -1,0 +1,11 @@
+.navbar{
+    height: 55px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(43, 39, 39, 0.268);
+    color: white;
+    /* margin: auto; */
+    z-index: 100;
+    cursor: pointer;
+}
